@@ -1,4 +1,4 @@
-# Exploratory Data Analysis for the Heart Failure Clinical Records
+# Exploratory Data Analysis of the Heart Failure Clinical Records
 
 - author: Riddhi Sansare
 
