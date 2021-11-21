@@ -1,3 +1,6 @@
+                   **Exploratory Data Analysis of the Heart Failure Clinical Data**
+
+
 ```python
 #import the required libraries 
 
@@ -1143,7 +1146,7 @@ pair
 
 
     
-![png](output_27_0.png)
+![png](output_28_0.png)
     
 
 
@@ -1171,7 +1174,7 @@ plot
 
 
     
-![png](output_29_0.png)
+![png](output_30_0.png)
     
 
 
@@ -1195,7 +1198,7 @@ alt.Chart(corr_df).mark_rect().encode(
 
 
     
-![png](output_30_0.png)
+![png](output_31_0.png)
     
 
 
@@ -1204,3 +1207,8 @@ alt.Chart(corr_df).mark_rect().encode(
   Even if all the features are numeric, it is difficult to do the comparison among them.
   From the above plots we can see that the features are in different scales,thus we are unable to interpret about     the feature causing the most effect to death.
   We'll need to process the training data and transform the numeric features to the same scale. 
+
+
+```python
+
+```
