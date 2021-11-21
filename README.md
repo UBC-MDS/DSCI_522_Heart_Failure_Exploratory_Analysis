@@ -39,22 +39,25 @@ Last updated: Nov 20th, 2021
 
   - Final report on the results
 
-- ## License
+- ## Report
 
-    This dataset is licensed under a Creative Commons Attribution
-    4.0 International (CC BY 4.0) license. This allows for the
-    sharing and adaptation of the datasets for any purpose, provided
-    that the appropriate credit is given.
+The EDA performed so far can be accessed [here](https://github.com/UBC-MDS/DSCI_522_Heart_Failure_Exploratory_Analysis/blob/main/src/Heart_Failure_EDA.html)
+
+- ## License
+  
+This dataset is licensed under a[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode) (CC BY 4.0) license.
+
+This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
 
 ## Source
 
-[Link to the dataset](https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records)
+[Link to the dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/00519/)
 
-The original dataset version was collected by Tanvir Ahmad, Assia Munir, Sajjad Haider Bhatti, Muhammad Aftab, and Muhammad Ali Raza (Government College University, Faisalabad, Pakistan) and made available by them on FigShare under the Attribution 4.0 International (CC BY 4.0: freedom to share and adapt the material) copyright in July 2017.
+[The original dataset version was collected by Tanvir Ahmad, Assia Munir, Sajjad Haider Bhatti, Muhammad Aftab, and Muhammad Ali Raza (Government College University, Faisalabad, Pakistan) and made available by them on FigShare under the Attribution 4.0 International (CC BY 4.0: freedom to share and adapt the material) copyright in July 2017.](https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records)
 
 The current version of the dataset was elaborated by Davide Chicco (Krembil Research Institute, Toronto, Canada) and donated to the University of California Irvine Machine Learning Repository under the same Attribution 4.0 International (CC BY 4.0) copyright in January 2020.
 
-Davide Chicco, Giuseppe Jurman: "Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone". BMC Medical Informatics and Decision Making 20, 16 (2020). [Web Link](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5#citeas)
-</div>
+## Reference
 
-</div>
+Davide Chicco, Giuseppe Jurman: "Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone". BMC Medical Informatics and Decision Making 20, 16 (2020). [Web Link](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5#citeas)
+
