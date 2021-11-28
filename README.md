@@ -8,7 +8,7 @@ British Columbia
 
 ## Usage
 
-### To download the data, run the script below.
+### To download the data, run the script below
 
 ```bash
 python src/download_data.py --url="https://archive.ics.uci.edu/ml/machine-learning-databases/00519/heart_failure_clinical_records_dataset.csv" --outputfile="data/raw/heart_failure_clinical_records_dataset.csv"
@@ -16,9 +16,9 @@ python src/download_data.py --url="https://archive.ics.uci.edu/ml/machine-learni
 
 ### Data Cleaning
 
-'''bash
+```bash
  python src/clean_split_data.py --raw_data="data/raw/heart_failure_clinical_records_dataset.csv" --out_dir="data/processed/"
-'''
+```
 
 ### Model Building
 
