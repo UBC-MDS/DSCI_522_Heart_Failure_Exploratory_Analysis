@@ -8,11 +8,25 @@ British Columbia
 
 ## Usage
 
-To download the data, run the script below.
+### To download the data, run the script below.
 
 ```bash
 python src/download_data.py --url="https://archive.ics.uci.edu/ml/machine-learning-databases/00519/heart_failure_clinical_records_dataset.csv" --outputfile="data/raw/heart_failure_clinical_records_dataset.csv"
 ```
+
+### Data Cleaning
+
+'''bash
+ python src/clean_split_data.py --raw_data="data/raw/heart_failure_clinical_records_dataset.csv" --out_dir="data/processed/"
+'''
+
+### Model Building
+
+The model building process can be accessed [here](https://github.com/UBC-MDS/DSCI_522_Heart_Failure_Exploratory_Analysis/blob/main/src/Heart_Failure_Model_Building.ipynb)
+
+## Dependencies
+
+The dependencies for this project are mentioned in the `Heart-failure.yml` environment file in the directory of this project
 
 ## Project Proposal
 
@@ -41,7 +55,7 @@ Last updated: Nov 20th, 2021
 
 - ## Report
 
-The EDA performed so far can be accessed [here](https://github.com/UBC-MDS/DSCI_522_Heart_Failure_Exploratory_Analysis/blob/main/src/Heart_Failure_EDA.ipynb)
+The report can be accessed [here](https://github.com/UBC-MDS/DSCI_522_Heart_Failure_Exploratory_Analysis/blob/main/doc/Report.pdf)
 
 - ## License
   
