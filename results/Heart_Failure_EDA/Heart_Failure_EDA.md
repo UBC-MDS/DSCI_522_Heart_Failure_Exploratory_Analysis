@@ -1546,12 +1546,7 @@ for c in numeric_var.columns:
 4. The platelet counts are observed to be slightly lower in heart_failure patients.
 5. Those with higher level of creatin are more likely to face heart failure.
 6. Level of sodium is almost the same in survivors and dead patients.
-7. People with more followup period are more likely to survive.
-
-**Observation**
-  Even if all the features are numeric, it is difficult to do the comparison among them.
-  From the above plots we can see that the features are in different scales,thus we are unable to interpret about     the feature causing the most effect to death.
-  We'll need to process the training data and transform the numeric features to the same scale. 
+7. People with more followup period are more likely to survive. 
 
 
 ```python
