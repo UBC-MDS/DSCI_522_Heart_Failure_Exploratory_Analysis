@@ -1,29 +1,31 @@
 # author: Riddhi Sansare
 
-"""Downloads csv data from a given URL to a local filepath.
+""" Downloads a csv data file from a url and save it to local file path as csv format.
 
-Usage: download_data.py --url=<url> --saving_path=<saving_path>
+Usage: download_data.py --url=<url> --out_file=<out_file>
 
 Options:
---url=<url>                     URL for the data file to be downloaded 
---saving_path=<saving_path>     Path (including filename) to save the downloaded file
+--url=<url>               the path in which the data is available  (must be in standard csv format)
+--out_file=<out_file>      the path where to locally write the file
 """
-  
-from docopt import docopt
-import os
+
+
 import pandas as pd
+import os
+from docopt import docopt
 
 opt = docopt(__doc__)
 
-def main(url, saving_path): 
-  
-  data = pd.read_csv(url)
+def main(url, out_file):
+    
+    
+    pumpkins_df= pd.read_csv(url)
 
-  try:
-    data.to_csv(saving_path, index=False)
-  except:
-    os.makedirs(os.path.dirname(saving_path))
-    data.to_csv(saving_path, index=False)
+    try:
+        pumpkins_df.to_csv(out_file, index = False)
+    except:
+        os.makedirs(os.path.dirname(out_file))
+        pumpkins_df.to_csv(out_file, index = False)
 
 if __name__ == "__main__":
-  main(opt["--url"], opt["--saving_path"])
+    main(opt['--url'],opt['--out_file'])
