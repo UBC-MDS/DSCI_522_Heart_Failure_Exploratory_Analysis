@@ -8,6 +8,16 @@ British Columbia
 
 ## Usage
 
+To set up the project locally please follow the steps :
+
+```bash
+#Clone the repository
+git clone https://github.com/UBC-MDS/DSCI_522_Heart_Failure_Exploratory_Analysis.git
+#set up the environment 
+conda env create -f Heart-failure.yml
+conda activate Heart-failure
+```
+
 ### To download the data, run the script below
 
 ```bash
@@ -24,10 +34,6 @@ cal_records_dataset.csv" --out_file="data/raw/heart_failure_clinical_records_dat
 ### Model Building
 
 The model building process can be accessed [here](https://github.com/UBC-MDS/DSCI_522_Heart_Failure_Exploratory_Analysis/blob/main/src/Heart_Failure_Model_Building.ipynb)
-
-## Dependencies
-
-The dependencies for this project are mentioned in the `Heart-failure.yml` environment file in the directory of this project
 
 ## Project Proposal
 
@@ -71,6 +77,25 @@ This allows for the sharing and adaptation of the datasets for any purpose, prov
 [The original dataset version was collected by Tanvir Ahmad, Assia Munir, Sajjad Haider Bhatti, Muhammad Aftab, and Muhammad Ali Raza (Government College University, Faisalabad, Pakistan) and made available by them on FigShare under the Attribution 4.0 International (CC BY 4.0: freedom to share and adapt the material) copyright in July 2017.](https://archive.ics.uci.edu/ml/datasets/Heart+failure+clinical+records)
 
 The current version of the dataset was elaborated by Davide Chicco (Krembil Research Institute, Toronto, Canada) and donated to the University of California Irvine Machine Learning Repository under the same Attribution 4.0 International (CC BY 4.0) copyright in January 2020.
+
+## Dependencies
+
+  The dependencies for this project are mentioned in the `Heart-failure.yml` environment file in the directory of this project
+
+- ipykernel
+- matplotlib>=3.2.2
+- scikit-learn>=1.0
+- pandas>=1.3.*
+- python-graphviz
+- pip
+- altair>=4.1.0
+- altair_data_server
+- altair_saver
+- docopt==0.6.2
+- pandoc>=1.12.3
+- R version 4.1.1 and R packages:
+  - knitr==1.26
+  - tidyverse==1.2.1
 
 ## Reference
 
