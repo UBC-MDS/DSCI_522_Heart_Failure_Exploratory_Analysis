@@ -14,7 +14,7 @@ To set up the project locally please follow the steps :
 #Clone the repository
 git clone https://github.com/UBC-MDS/DSCI_522_Heart_Failure_Exploratory_Analysis.git
 #set up the environment 
-conda env create -f Heart-failure.yml
+conda env create -f Heart_failure_environment.yml
 conda activate Heart-failure
 ```
 
@@ -93,6 +93,7 @@ The current version of the dataset was elaborated by Davide Chicco (Krembil Rese
 - altair_saver
 - docopt==0.6.2
 - pandoc>=1.12.3
+- seaborn
 - R version 4.1.1 and R packages:
   - knitr==1.26
   - tidyverse==1.2.1
