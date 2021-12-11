@@ -15,6 +15,7 @@ dependencies:
   - lightgbm
   - xgboost
   - altair>=4.1.0
+  - seaborn
   - pip:
     - mglearn
     - psutil>=5.7.2
